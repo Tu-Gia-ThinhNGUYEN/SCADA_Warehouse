@@ -1,0 +1,53 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "SCADA_WAREHOUSE/1.0.0": {
+        "dependencies": {
+          "Interop.OPCAutomation": "1.0.0.0",
+          "Interop.ActUtlTypeLib": "1.0.0.0"
+        },
+        "runtime": {
+          "SCADA_WAREHOUSE.dll": {}
+        }
+      },
+      "Interop.OPCAutomation/1.0.0.0": {
+        "runtime": {
+          "Interop.OPCAutomation.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Interop.ActUtlTypeLib/1.0.0.0": {
+        "runtime": {
+          "Interop.ActUtlTypeLib.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SCADA_WAREHOUSE/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Interop.OPCAutomation/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Interop.ActUtlTypeLib/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
